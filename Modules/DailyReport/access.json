@@ -1,0 +1,23 @@
+{
+    "can_view_daily_report": [
+        "1",
+        "2"
+    ],
+    "can_create_daily_report": [
+        "1",
+        "2"
+    ],
+    "can_delete_daily_report": [],
+    "can_edit_daily_report": [
+        "1",
+        "2"
+    ],
+    "can_view_report_history": [
+        "1",
+        "2"
+    ],
+    "can_download_daily_report": [
+        "1",
+        "2"
+    ]
+}

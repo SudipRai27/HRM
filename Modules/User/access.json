@@ -1,0 +1,25 @@
+{
+    "can_view": [
+        "1",
+        "2"
+    ],
+    "can_view_individual_user": [
+        "1"
+    ],
+    "can_create": [
+        "1"
+    ],
+    "can_delete": [],
+    "can_edit": [],
+    "can_view_profile": [
+        "1",
+        "2"
+    ],
+    "can_change_password": [
+        "1",
+        "2"
+    ],
+    "can_generate_excel": [
+        "2"
+    ]
+}

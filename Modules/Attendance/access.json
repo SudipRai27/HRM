@@ -1,0 +1,18 @@
+{
+    "can_check_in": [
+        "1",
+        "2"
+    ],
+    "can_check_out": [
+        "1",
+        "2"
+    ],
+    "can_view_todays_attendance": [
+        "1",
+        "2"
+    ],
+    "can_view_attendance_history": [
+        "1",
+        "2"
+    ]
+}

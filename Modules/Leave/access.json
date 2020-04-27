@@ -1,0 +1,25 @@
+{
+    "can_view_leave_request": [
+        "1",
+        "2"
+    ],
+    "can_create_leave_request": [
+        "1",
+        "2"
+    ],
+    "can_edit_leave_request": [
+        "1",
+        "2"
+    ],
+    "can_approve_leave_request": [],
+    "can_reject_leave_request": [],
+    "can_delete_leave_request": [],
+    "can_view_leave_history": [
+        "1",
+        "2"
+    ],
+    "can_view_leave_logs": [
+        "1",
+        "2"
+    ]
+}

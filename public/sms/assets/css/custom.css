@@ -1,0 +1,89 @@
+a.chatBox{ max-height: 400px; overflow: auto;}
+.chatItem{ background-color: #eee; padding: 10px; margin-bottom: 10px}
+.chatItem img { border: 2px solid transparent;  border-radius: 50% !important;  height: 40px;    width: 40px; vertical-align: middle;}
+.cMsg{ margin-left: 55px; margin-top: -40px}
+.cMsg > .name{display: block;     font-weight: 600;}
+
+.profile-image{ margin: 20px auto !important; width: 200px; height: 200px; border-radius:50%; overflow: hidden; border: 5px solid #ccc; }
+
+.main-head{ font-size: 20px; color: #3c8dbc; line-height: 30px}
+.second-head{ font-size: 16px; color: #27a106; line-height: 25px}
+.profile-detail ul{margin:15px 0; padding: 0}
+.profile-detail ul li{ margin:0;padding: 0; list-style: none; line-height: 30px; border-bottom: 1px solid #ccc;  background-color: #eee; padding-left: 15px}
+.profile-detail ul li label{ min-width: 150px;}
+
+.profile-menu ul{ margin: 15px 0 !important;}
+.profile-menu li{  list-style: none; margin:0; padding:0;}
+
+.btn-profile{ padding:15px; text-align: center; min-width: 80px; font-size: 16px}
+.btn-profile i{ display: block; padding-bottom: 10px; font-size: 20px}
+
+.dloading{ width: 50px; height: 60px; margin:0 auto; margin-top: 25px; }
+
+.pimg{ width: 100%; min-height: 150px }
+
+.info-bar{  background-color: #3c8dbc; color: #fff;  line-height: 30px;  padding: 5px 10px;}
+
+.happy-info{  background-color: #69a648; margin-bottom: 15px; color: #fff; font-size: 18px; text-align: center;  line-height: 40px; }
+.danger-bar{  background-color: #e73232; color: #fff;  line-height: 30px;  padding: 5px 10px;}
+
+/*******************  Billing  *************************************/
+.billBox{ margin: 5px 0 }
+.billBox input, .billBox select{background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; color: #555;display: block; font-size: 14px; height: 34px;
+    line-height: 1.42857; padding: 6px 12px; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;  width: 100%; border-radius: 0}
+.billAlert{ padding:10px 15px; border-radius: 5px; background-color: #509cc8; color: #fff; font-size: 14px; }
+
+.bill-title::after { border-top: 2px solid #077abc;  content: ""; display: block;  height: 2px; margin-top: 10px;
+    width: 40px;}
+.bill-title {  color: #077abc;  font-size: 20px; font-weight: normal;  margin-bottom: 0.5em;  padding: 0.5em 0;}
+
+/************************/
+#fee_row,#other_fee_row{ padding:15px; background-color: #eee; margin-bottom: 15px; display: block; overflow: hidden; }
+
+/*************  check box***********************/
+input[type=checkbox].css-checkbox {
+position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+input[type=checkbox].css-checkbox + label.css-label {padding-left:23px;	height:18px; display:inline-block;	line-height:18px;	background-repeat:no-repeat; background-position: 0 0; font-size:14px; vertical-align:middle; cursor:pointer;}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {background-position: 0 -18px;}
+
+label.css-label {background-image:url(../../assets/img/checkbox.png);-webkit-touch-callout: none;-webkit-user-select: none;	-khtml-user-select: none;-moz-user-select: none;	-ms-user-select: none;	user-select: none;}
+
+.mTitle{ font-size: 14px; line-height: 35px; background-color: #3c8dbc; color: #fff; display: block; padding-left: 5px }
+
+.transferID{ line-height: 30px; font-size: 12px; color: #ff2c02 }
+
+.budgetAmount{ font-size: 20px; line-height: 40px; color: #ff3000; text-align:right; padding-right: 15px }
+
+.slimScrollBar {
+background: none repeat scroll 0 0 #fff !important;
+border-radius: 0;
+display: none;
+height: 200px;
+position: absolute;
+right: 1px;
+top: 145px;
+width: 10px!important;
+z-index: 99;
+opacity:0.3!important;
+}
+
+.topReportBox{margin-bottom: 15px; background-color: #eee; padding:15px;}
+       .no-print{ margin-bottom: 15px; }
+      @media print
+      {    
+        body {margin-top:5mm; margin-bottom:5mm;  margin-left: 0mm; margin-right: 0mm}
+        .no-print, .no-print *  { display: none !important; }
+        .topReportBox{background-color: #eee !important; -webkit-print-color-adjust: exact; }
+         table { page-break-inside:auto }
+         tr { page-break-inside:avoid; page-break-after:auto }
+        }
+
+.pdrInfo { margin-bottom: 15px;padding: 10px; background-color: #3c8dbc; display: block; overflow: hidden;}
+.pdrInfo ul {margin: 0; padding: 0; color: #fff;}
+.pdrInfo ul li {float: left; list-style: none; margin-right: 20px;}
+
+.pdrFeedInfo {margin-bottom: 15px; padding: 10px;background-color: #eee; display: block; overflow: hidden;}
+.pdrFeedInfo ul {margin: 0; padding: 0; color: #333;}
+.pdrFeedInfo ul li {float: left; list-style: none; margin-right: 20px;}

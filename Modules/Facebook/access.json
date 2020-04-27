@@ -1,0 +1,15 @@
+{
+    "can_view_fb_posts": [
+        "1",
+        "2"
+    ],
+    "can_create_fb_link_posts": [
+        "1",
+        "2"
+    ],
+    "can_create_fb_image_posts": [
+        "1",
+        "2"
+    ],
+    "can_delete_fb_posts": []
+}

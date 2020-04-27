@@ -1,0 +1,16 @@
+{
+    "name": "Attendance",
+    "alias": "attendance",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Attendance\\Providers\\AttendanceServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

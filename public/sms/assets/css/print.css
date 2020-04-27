@@ -1,0 +1,6 @@
+@media print { 
+ /* All your print styles go here */
+ body{ padding: 15px !important}
+.last-hide thead tr th:last-child{ display: none}
+.last-hide tbody tr td:last-child,.backBtn{ display: none}
+}

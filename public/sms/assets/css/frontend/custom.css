@@ -1,0 +1,45 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+#primary-menu.style-3 > ul > li.current > a { background-color: #354286 }
+#top-cart a:hover{ color: #fff !important }
+
+.button-navy { background-color: #c22830; }
+
+.button-navy:hover { background-color: #7f060d !important; }
+
+.myCat a {
+    display: block;
+    width: 100% !important;
+}
+
+.pCategory li{}
+
+.front-article p{ font-size: 18px; }
+
+.flexslider ol li img{ min-height: 85px !important; }
+.product-desc{ font-size: 16px; line-height: 30px }
+
+.allProt{min-height: 210px !important}
+
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #eee;
+}
+
+.myArticle ul{ list-style-position: inside; }
+.myArticle ul li{ line-height: 35px; border-bottom: 1px dashed #ccc }
+
+
+.notice{ text-align: center; background-image: url("../../../../sms/assets/img/np.jpg"); padding: 100px 0px; background-position: 50% -49.53px; font-size: 20px}
+.nTitle{ font-size:45px; padding-bottom: 10px}
+.nTime{font-size: 18px; color: #fe4918 }
+
+
+.day{ text-align: center; font-size: 14px; color: #50810e }
+.fTitle{ padding-bottom: 10px; font-size: 22px; color: #fe4918  }
+.event-title{ color: #fe4918; line-height: 30px; font-size: 15px }
+.time{font-size: 12px; color: #fe4918 }

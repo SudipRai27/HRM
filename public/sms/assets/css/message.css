@@ -1,0 +1,46 @@
+.mHead{border-bottom: 2px solid #eee; margin-bottom: 15px; padding-bottom: 5px;}
+.chat { margin-bottom: 10px; clear: both; display: block; overflow:  hidden;}
+
+.mImg{ width: 5%; display: inline-block; }
+
+.me{ background-color: #3c8dbc; padding: 10px 18px; position: relative; max-width:80%; border-radius:5px; color: #fff; float: left; display: inline-block; margin-left: 5%}
+
+.me:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(60, 141, 188, 0);
+    border-right-color: #3c8dbc;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+.you{ background-color: #eee; padding: 10px 18px; position: relative; max-width:80%; border-radius:5px; color: #333; float: right; display: inline-block; margin-right: 5%  }
+
+.you:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(238, 238, 238, 0);
+    border-left-color: #eee;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+.msg-sender{ font-size: 18px; margin-bottom: 10px;  }
+
+@media (max-width: 767px) {
+.mImg{ width: 15%; display: inline-block; }
+
+
+    }

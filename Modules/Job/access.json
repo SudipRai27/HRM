@@ -1,0 +1,15 @@
+{
+    "can_view_job": [
+        "1",
+        "2"
+    ],
+    "can_create_job": [
+        "1"
+    ],
+    "can_edit_job": [
+        "1"
+    ],
+    "can_delete_job": [
+        "1"
+    ]
+}

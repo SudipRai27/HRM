@@ -1,0 +1,15 @@
+{
+    "can_view_department": [
+        "1",
+        "2"
+    ],
+    "can_create_department": [
+        "1"
+    ],
+    "can_edit_department": [
+        "1"
+    ],
+    "can_delete_department": [
+        "1"
+    ]
+}
