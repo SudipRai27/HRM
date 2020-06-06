@@ -15,7 +15,7 @@
 				<div class="table-responsive">
 				@if(count($user))
 				<?php  $i =1; ?>
-			        <table class="table table-bordered table-hover">        
+			        <table class="table table-bordered table-hover" id = "search-results">        
 						<thead>
 							<tr style="background-color:#333; color:white;">
 							<th>SN</th>
@@ -62,7 +62,7 @@
 					@endif					
 				</div>
 				{{$user->render()}}					
-			</div>
+			</div>			
 		</div>
 	</div>
 </div>
@@ -82,7 +82,9 @@
 
   $(document).ready(function(){
     $('#search_bar').on('keyup', function() {
+
         var input = $('#search_bar').val(); 
+
         $('#search-results').html('<div><br><p align = "center"><img src = "{{asset('public/images/giphy.gif')}}" ></p></div>')
         $.ajax({
             'method' : 'GET', 
@@ -92,6 +94,7 @@
                 }
 
         }).done(function(data){
+        	console.log(data);
             $('#search-results').html(data);
         });
     });
