@@ -194,9 +194,10 @@ class AjaxController extends Controller
     public function getSearchUser(Request $request)
     {
         $input = $request->input; 
-
+        
         if($request->ajax())
         {
+
             $user = DB::table('user_roles')
                     ->join('roles', 'roles.id', '=', 'user_roles.role_id')
                     ->join('users', 'users.id', '=', 'user_roles.user_id')
